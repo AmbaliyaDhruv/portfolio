@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 import styles from "./ProjectItem.module.css";
+import HTML from "../../../Assets/img/logos/css.png"
 
 const ProjectItem = ({ data }) => {
     return (
@@ -14,6 +15,7 @@ const ProjectItem = ({ data }) => {
                     <source media="(min-width:1300px)" srcset={data.image[1]} />
                     <img src={data.image[1]} alt={data.alt} />
                 </picture>
+
                 <div className={styles.projectOverlay}>
                     <h3 className={styles.projectOverlayHeader}>
                         {data.heading}
@@ -53,6 +55,17 @@ const ProjectItem = ({ data }) => {
                     </div>
                 </div>
             </div>
+            <div className={styles.Dhru}>
+                <h1>Tech stack</h1>
+                
+               <div className={styles.imageContainer}>
+                   {(data.tech).map((e,index)=>{
+                   return <img src={e} key={index} alt="" className={styles.image} />
+                   })}
+                
+            
+            </div>
+             </div>
         </div>
     );
 };

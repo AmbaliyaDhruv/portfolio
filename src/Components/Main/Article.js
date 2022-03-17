@@ -31,7 +31,7 @@ const Article = ({ data }) => {
                     {data.p2 && <p>{data.p2}</p>}
                     {data.technologies && <Technologies />}
                     {data.p3 && <p>{data.p3}</p>}
-                    {data.portfolio && <ProjectContainer />}
+                    {data.projects && <ProjectContainer />}
                     {data.form && <ContactForm />}
                 </section>
             </Fade>

@@ -45,7 +45,7 @@ const NavBar = () => {
     };
 
     // Nav links
-    const navigationLinks = ["About", "Portfolio", "Contact"];
+    const navigationLinks = ["About", "Projects", "Contact"];
 
     return (
         <>

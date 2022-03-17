@@ -1,59 +1,71 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../../../context/ThemeContext";
-import whakaariSm from "../../../Assets/img/Portfolio items/whakaari-400w.png";
-import whakaariLg from "../../../Assets/img/Portfolio items/whakaari-700w.png";
-import pounamunuiSm from "../../../Assets/img/Portfolio items/pounamunui-400w.png";
-import pounamunuiLg from "../../../Assets/img/Portfolio items/pounamunui-700w.png";
-import newsAggregator from "../../../Assets/img/Portfolio items/news-aggregator-700w.png";
-import spacexSm from "../../../Assets/img/Portfolio items/spacex-400w.png";
-import spacexLg from "../../../Assets/img/Portfolio items/spacex-700w.png";
+import whakaariSm from "../../../Assets/img/Portfolio items/bonvoy.png";
+import whakaariLg from "../../../Assets/img/Portfolio items/bonvoy.png";
+import pounamunuiSm from "../../../Assets/img/Portfolio items/youtube.png";
+import pounamunuiLg from "../../../Assets/img/Portfolio items/youtube.png";
+import newsAggregator from "../../../Assets/img/Portfolio items/foodApp.png";
+import spacexSm from "../../../Assets/img/Portfolio items/purplle.png";
+import spacexLg from "../../../Assets/img/Portfolio items/purplle.png";
 
 import ProjectItem from "./ProjectItem";
 
 import styles from "./ProjectContainer.module.css";
+
+
+import html from "../../../Assets/img/logos/html.svg";
+import css from "../../../Assets/img/logos/css.svg";
+import js from "../../../Assets/img/logos/js.svg";
+import react from "../../../Assets/img/logos/react.svg";
+import nodejs from "../../../Assets/img/logos/nodejs.svg";
+import expressjs from "../../../Assets/img/logos/expressjs.svg";
 
 const ProjectContainer = () => {
     const { isLight } = useContext(ThemeContext);
     const projects = [
         {
             image: [spacexSm, spacexLg],
-            alt: "Space X app",
-            heading: "SpaceX App",
-            p1: "SpaceX App displaying current rocket and launch data",
-            l1: "https://github.com/tipenehughes/space-x-app",
+            alt: "Purplle.com_web_clone",
+            heading: "Purplle.com_web_clone",
+            p1: "This is a clone of purplle.com, where we have used HTML, CSS, and Javascript to achieve this.",
+            l1: "https://github.com/Duwesh/Purplle.com_web_clone",
             a1: "Github page for a project.",
-            l2: "https://spacex-project.netlify.app/",
-            a2: "SpaceX app live website.",
+            l2: "https://purplle.vercel.app/",
+            a2: "Purplle.com_web_clone",
+            tech:[html,css,js],
         },
         {
             image: [whakaariSm, whakaariLg],
-            alt: "Whakaari website",
-            heading: "Whakaari Rotorua",
-            p1: "International Performance Artists",
-            l1: "https://github.com/tipenehughes/whakaari",
-            a1: "Github page for a Whakaari website project.",
-            l2: "https://whakaari.netlify.app/",
-            a2: "Whakaari project live website.",
+            alt: "Marriott Bonvoy",
+            heading: "Marriott Bonvoy web clone",
+            p1: "Here we have tried to optimize the previous project cloning of Marriott_Bonvoy by adding backend to it and some more functionality in the frontend. We had built up all our efforts to do our best in this project.",
+            l1: "https://github.com/AmbaliyaDhruv/NewMarriott_Bonvoy_clone.github.io",
+            a1: "Github page for a Marriott Bonvoy project.",
+            l2: "https://masai-marriott-com.vercel.app/",
+            a2: "Marriott Bonvoy live website.",
+            tech:[html,css,js,react,expressjs,nodejs],
         },
         {
             image: [pounamunuiSm, pounamunuiLg],
-            alt: "Pounamunui website",
-            heading: "Pounamunui Marae",
-            p1: "Tribal Community Hub",
-            l1: "https://github.com/tipenehughes/Houmaitawhiti-Tribal-Hub",
+            alt: "Youtube web clone",
+            heading: "Youtube web clone",
+            p1: "Getting familiar with google APIs by creating this simple Youtube-like app, where users can search and stream Youtube videos. Using JS, HTML and CSS.",
+            l1: "https://github.com/AmbaliyaDhruv/YouTube_clone.github.io",
             a1: "Github page for a project.",
-            l2: "https://pounamunui.netlify.app/",
-            a2: "Pounamunui project live website.",
+            l2: "https://ambaliyadhruv.github.io/YouTube_clone.github.io/",
+            a2: "Youtube clone web project live website.",
+            tech:[html,css,js],
         },
         {
             image: [newsAggregator, newsAggregator],
-            alt: "News aggregator website",
-            heading: "News Aggregator",
-            p1: "News aggregator featuring weather, stocks and reddit",
-            l1: "https://github.com/tipenehughes/news-aggregator",
+            alt: "Food App",
+            heading: "Food App",
+            p1: "A food search app, where users can search various dishes and get the full recipe of it and Implemented search functionality using JS debouncing to minimize the unnecessary api calls",
+            l1: "https://github.com/AmbaliyaDhruv/FoodApp",
             a1: "Github page for a project.",
-            l2: "https://news-aggregator-react.netlify.app/",
-            a2: "News Aggregator live website",
+            l2: "https://food-app-ambaliyadhruv.vercel.app/index.html",
+            a2: "Food App live website",
+            tech:[html,css,js],
         },
     ];
     return (

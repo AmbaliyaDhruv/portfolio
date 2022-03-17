@@ -8,7 +8,7 @@ const NavSocial = ({ socialClass, socialIcons }) => {
         <>
             <li className={`${styles[socialClass]}`}>
                 <a
-                    href="https://github.com/tipenehughes"
+                    href="https://github.com/AmbaliyaDhruv"
                     className="socialIcons"
                     target="_blank"
                     rel="noreferrer noopener"
@@ -22,7 +22,7 @@ const NavSocial = ({ socialClass, socialIcons }) => {
             </li>
             <li className={`${styles[socialClass]}`}>
                 <a
-                    href="https://www.linkedin.com/in/tipene-hughes/"
+                    href="https://www.linkedin.com/in/dhruv-ambaliya-fullstackwebdeveloper/"
                     className="socialIcons"
                     target="_blank"
                     rel="noreferrer noopener"

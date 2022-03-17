@@ -44,8 +44,8 @@ const Footer = () => {
                 <NavSocial socialClass={""} socialIcons={"footerSocialIcons"} />
             </ul>
             <div className={styles.copyright}>
-                <small>Handcrafted by me.</small>
-                <small>&copy; 2021</small>
+                <small>Made with By.</small>
+                <small>&copy;2022</small>
             </div>
             <iframe
                 src="https://www.getfeedback.com/e/gRjjRmfg"

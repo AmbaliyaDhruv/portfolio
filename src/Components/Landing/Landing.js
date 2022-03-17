@@ -18,7 +18,7 @@ const Landing = () => {
                         <span>I'm Dhruv.</span>
                     </h1>
                     <h2>I'm an aspiring Full Stack Developer based in Gujarat.</h2>
-                    <Link smooth to="/#portfolio">
+                    <Link smooth to="/#projects">
                         <Button input={"See my work"} />
                     </Link>
                 </section>
