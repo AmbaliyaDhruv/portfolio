@@ -1,8 +1,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/tipenehughes/portfolio">
-    <img src="src/Assets/img/avatar.svg" alt="Logo" width="100" height="100">
+  <a href="https://github.com/AmbaliyaDhruv/portfolio">
+    <img src="src/Assets/img/Myimg.png" alt="Logo" width="100" height="100">
   </a>
 
   <h1 align="center">Welcome to my Portfolio 👋</h3>
@@ -11,7 +11,7 @@
     Personal website showcasing my skills and latest projects!    
     <br />
     <br />
-    :round_pushpin:<a href="https://www.tipenehughes.com/">View Demo</a>
+    :round_pushpin:<a href="https://portfolio-ambaliyadhruv.vercel.app/">View Demo</a>
   </p>
 </p>
 
@@ -47,13 +47,11 @@
 
 <br/>
 
-[![Portfolio image][portfolio-image]](src/Assets/img/thumbnails/portfolio.png)
+![Screenshot 2022-03-18 223751](https://user-images.githubusercontent.com/96105500/159052200-ea1e63bf-38b1-4366-b2f0-7cd5076ce4dc.png)
 
 <br/>
 
 I built this portfolio website as a showcase of my skills and projects. This website was originally built with HTML, CSS and Vanilla JS. As my learning journey has progressed, I've used this website as a testing ground for new technologies and will continue to test and implement more as my journey continues, so watch this space!
-
-A list of commonly used resources used are listed in the acknowledgements.
 
 Keep reading to see more about this project!
 
@@ -125,3 +123,4 @@ Project Link: [https://www.tipenehughes.com/](https://www.tipenehughes.com/)
 [linkedin-url]: https://www.linkedin.com/in/tipene-hughes/
 [portfolio-image]: src/Assets/img/thumbnails/portfolio.png
 [portfolio-gif]: src/Assets/img/gif.gif
+
