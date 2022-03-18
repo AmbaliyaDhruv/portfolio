@@ -17,7 +17,7 @@ const Footer = () => {
             <br/>
             <small>ambaliyadhruv1112@gmail.com</small>
             <br/>
-                <small>Made with By.</small>
+                <small>Developed by Dhruv.</small>
                 <small>&copy;2022</small>
             </div>
      </footer>

@@ -38,7 +38,7 @@ const ProjectContainer = () => {
             image: [whakaariSm, whakaariLg],
             alt: "Marriott Bonvoy",
             heading: "Marriott Bonvoy web clone",
-            p1: "Here we have tried to optimize the previous project cloning of Marriott_Bonvoy by adding backend to it and some more functionality in the frontend. We had built up all our efforts to do our best in this project.",
+            p1: "Here we have tried to optimize the previous project cloning of Marriott_Bonvoy by adding backend to it and some more functionality in the frontend.",
             l1: "https://github.com/AmbaliyaDhruv/NewMarriott_Bonvoy_clone.github.io",
             a1: "Github page for a Marriott Bonvoy project.",
             l2: "https://masai-marriott-com.vercel.app/",
