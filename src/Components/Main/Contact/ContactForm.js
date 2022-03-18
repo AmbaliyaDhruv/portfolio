@@ -10,6 +10,25 @@ import * as Yup from "yup";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import styles from "./ContactForm.module.css";
+import emailjs from '@emailjs/browser';
+
+// const sendEmail = (e) => {
+//     e.preventDefault();
+
+//     emailjs.sendForm('service_gopv0ac', 'template_4014ao8', form.current, 'hbjbwcK2YFLnnQkx2')
+//       .then((result) => {
+//         toastSuccess();
+//         setSubmitting(false);
+//         console.log(values);
+//         resetForm();
+//       }, (error) => {
+//         console.log(error);
+//         toastError();
+//         setSubmitting(false);
+//       });
+//   };
+
+
 
 const ContactForm = () => {
     const { isLight } = useContext(ThemeContext);
@@ -55,16 +74,16 @@ const ContactForm = () => {
                         .max(120, "Must be 120 characters or less")
                         .required("Required"),
                 })}
-                onSubmit={async(values, { setSubmitting, resetForm }) => {
-                    await fetch(" https://portfolioinbox.herokuapp.com/", {
+                onSubmit={(values, { setSubmitting, resetForm }) => {
+                    
+                    const mes=JSON.stringify(values)
+                    fetch(" https://portfolioinbox.herokuapp.com/", {
                         method: "POST",
+                        body:mes,
                         headers: {
                             "Content-Type": "application/json",
                         },
-                        body: encode({
-                            "form-name": "contact",
-                            ...values,
-                        }),
+                  
                     })
                         .then(() => {
                             toastSuccess();
