@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/tipenehughes/portfolio">
-    <img src="src/Assets/img/avatar.svg" alt="Logo" width="100" height="100">
+    <img src="src/Assets/img/Myimg.png" alt="Logo" width="100" height="100">
   </a>
 
   <h1 align="center">Welcome to my Portfolio 👋</h3>
@@ -82,7 +82,7 @@ Follow these steps to get a local copy up and running.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/tipenehughes/portfolio
+   git clone https://github.cohttps://github.com/tipenehughes/portfoliom/tipenehughes/portfolio
    ```
 2. Install NPM packages
    ```sh
@@ -96,7 +96,7 @@ Follow these steps to get a local copy up and running.
 <!-- USAGE EXAMPLES -->
 ## Usage :mag:
 
-:round_pushpin:<a href="https://www.tipenehughes.com/">View Live Demo Here!</a>
+:round_pushpin:<a href="https://portfolio-ambaliyadhruv.vercel.app/">View Live Demo Here!</a>
 <br/>
 [![Portfolio gif][portfolio-gif]](src/Assets/img/gif.gif)
 
@@ -106,22 +106,15 @@ Follow these steps to get a local copy up and running.
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-:e-mail: tipenehughes@gmail.com
+:e-mail: ambaliyadhruv1112@gmail.com
 
-Project Link: [https://www.tipenehughes.com/](https://www.tipenehughes.com/)
+Project Link: [https://portfolio-ambaliyadhruv.vercel.app/](https://www.tipenehughes.com/)
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements :clap:
-* [Font Awesome](https://fontawesome.com/)
-* [Yup](https://github.com/jquense/yup)
-* [React Reveal](https://www.react-reveal.com/)
-* [React Toastify](https://github.com/fkhadra/react-toastify)
-* [Smooth Scroll](https://github.com/iamdustan/smoothscroll)
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=2867B2
-[linkedin-url]: https://www.linkedin.com/in/tipene-hughes/
+[linkedin-url]: https://www.linkedin.com/in/dhruv-ambaliya-fullstackwebdeveloper/
 [portfolio-image]: src/Assets/img/thumbnails/portfolio.png
 [portfolio-gif]: src/Assets/img/gif.gif
