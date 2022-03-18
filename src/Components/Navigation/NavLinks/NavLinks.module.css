@@ -1,8 +1,10 @@
 .navItem {
     display: inline-block;
+    
     height: auto;
     width: 8rem;
     text-align: left;
+    
 }
 
 .navItem ::after {

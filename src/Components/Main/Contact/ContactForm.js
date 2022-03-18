@@ -59,7 +59,7 @@ const ContactForm = () => {
                     fetch(" https://portfolioinbox.herokuapp.com/", {
                         method: "POST",
                         headers: {
-                            "Content-Type": "application/x-www-form-urlencoded",
+                            "Content-Type": "application/json",
                         },
                         body: encode({
                             "form-name": "contact",

@@ -9,11 +9,14 @@ const NavLinks = ({ input, navClass, handleSetMobileMenu, width, isLight }) => {
         <li
             className={`${styles[navClass]} ${!isLight && styles.dark}`}
             onClick={width <= 768 ? () => handleSetMobileMenu() : null}
-        >
-            <Link smooth to={`/#${input.toLowerCase()}`}>
+        >{input==="Resume"? <a
+                    href="https://drive.google.com/file/d/1g20D1sblle14ngNcesAZdxeyTvOhlK7t/view?usp=sharing"
+                  >{input}
+                </a>: 
+                <Link smooth to={`/#${input.toLowerCase()}`}>
                 {input}
-            </Link>
-        </li>
+            </Link>}
+           </li>
     );
 };
 
