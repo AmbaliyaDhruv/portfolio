@@ -13,11 +13,11 @@
 .mobileSocialIcons {
     color: #fff;
     font-size: 3rem;
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .footerSocialIcons {
-    font-size: 3rem;
-    margin: 0 2rem;
+    font-size: 2rem;
+    margin: 0 1rem;
     color: var(--secondary-color);
 }
