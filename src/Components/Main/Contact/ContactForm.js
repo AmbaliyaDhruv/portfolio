@@ -55,8 +55,8 @@ const ContactForm = () => {
                         .max(120, "Must be 120 characters or less")
                         .required("Required"),
                 })}
-                onSubmit={(values, { setSubmitting, resetForm }) => {
-                    fetch(" https://portfolioinbox.herokuapp.com/", {
+                onSubmit={async(values, { setSubmitting, resetForm }) => {
+                    await fetch(" https://portfolioinbox.herokuapp.com/", {
                         method: "POST",
                         headers: {
                             "Content-Type": "application/json",
