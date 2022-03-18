@@ -36,7 +36,8 @@
         align-items: center;
     }
     .avatar {
-        display: none;
+        display:block;
+        width:80%;
     }
     .welcome {
         display: flex;
