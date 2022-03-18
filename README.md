@@ -2,9 +2,8 @@
 <br />
 <p align="center">
 
-  <a href="https://github.com/tipenehughes/portfolio">
-
-    <img src="src/Assets/img/Myimg.png" alt="Logo" width="100" height="100">
+  <a href="https://github.com/AmbaliyaDhruv/portfolio">
+        <img src="src/Assets/img/Myimg.png" alt="Logo" width="100" height="100">
   </a>
 
   <h1 align="center">Welcome to my Portfolio 👋</h3>
