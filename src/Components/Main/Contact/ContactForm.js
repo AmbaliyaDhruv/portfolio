@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import styles from "./ContactForm.module.css";
 import { ThemeContext } from "../../../context/ThemeContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -9,28 +10,15 @@ import { Formik, Field, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import styles from "./ContactForm.module.css";
+
 import emailjs from '@emailjs/browser';
 
-// const sendEmail = (e) => {
-//     e.preventDefault();
 
-//     emailjs.sendForm('service_gopv0ac', 'template_4014ao8', form.current, 'hbjbwcK2YFLnnQkx2')
-//       .then((result) => {
-//         toastSuccess();
-//         setSubmitting(false);
-//         console.log(values);
-//         resetForm();
-//       }, (error) => {
-//         console.log(error);
-//         toastError();
-//         setSubmitting(false);
-//       });
-//   };
 
 
 
 const ContactForm = () => {
+    
     const { isLight } = useContext(ThemeContext);
     const theme = !isLight ? styles.dark : "";
 
@@ -76,27 +64,19 @@ const ContactForm = () => {
                 })}
                 onSubmit={(values, { setSubmitting, resetForm }) => {
                     
-                    const mes=JSON.stringify(values)
-                    fetch(" https://portfolioinbox.herokuapp.com/", {
-                        method: "POST",
-                        body:mes,
-                        headers: {
-                            "Content-Type": "application/json",
-                        },
-                  
-                    })
-                        .then(() => {
+                    emailjs.sendForm('service_gopv0ac', 'template_4014ao8',values, 'hbjbwcK2YFLnnQkx2')
+                          .then((result) => {
                             toastSuccess();
                             setSubmitting(false);
                             console.log(values);
                             resetForm();
-                        })
-                        .catch((error) => {
+                          }, (error) => {
                             console.log(error);
                             toastError();
                             setSubmitting(false);
-                        });
-                }}
+                          });
+                }
+            }
             >
                 {({ errors, touched }) => (
                     <Form>
