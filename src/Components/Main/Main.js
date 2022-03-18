@@ -15,10 +15,15 @@ const Main = () => {
             projects: true,
         },
         {
+            heading:"SKILLS",
+            skills:true,
+        },
+        {
             heading: "CONTACT",
             p1: `If you have any questions or would like to chat, feel free to reach out below!`,
             form: true,
         },
+      
     ];
     return (
         <main>

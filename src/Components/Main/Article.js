@@ -5,6 +5,7 @@ import styles from "./Article.module.css";
 import Technologies from "./About/Technologies";
 import ProjectContainer from "./Portfolio/ProjectContainer";
 import ContactForm from "./Contact/ContactForm";
+import { Skillset } from "./Skillset/Skill";
 
 const Article = ({ data }) => {
     const { isLight } = useContext(ThemeContext);
@@ -32,8 +33,9 @@ const Article = ({ data }) => {
                     {data.technologies && <Technologies />}
                     {data.p3 && <p>{data.p3}</p>}
                     {data.projects && <ProjectContainer />}
+                    {data.skills && <Skillset/>}
                     {data.form && <ContactForm />}
-                </section>
+             </section>
             </Fade>
         </article>
     );
