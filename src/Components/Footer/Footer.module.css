@@ -7,10 +7,7 @@
     padding: 1rem;
   
 }
-.iconContainer {
-    display: flex;
-   
-}
+
 
 .dark {
     background-color: var(--dark-card-bg);
@@ -18,8 +15,4 @@
     
 }
 
-.copyright {
-    font-size: large;
-    text-align: center;
-    padding: 1rem;
-}
+

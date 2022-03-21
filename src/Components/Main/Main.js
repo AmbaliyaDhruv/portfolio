@@ -20,7 +20,7 @@ const Main = () => {
         },
         {
             heading: "CONTACT",
-            p1: `If you have any questions or would like to chat, feel free to reach out below!`,
+            p1: `If you have any questions or would like to chat, feel free to reach out !`,
             form: true,
         },
       
