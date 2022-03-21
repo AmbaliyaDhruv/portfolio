@@ -2,6 +2,7 @@
     padding: 0.5rem;
     height: 100%;
     flex: 1 1 50%;
+   
 }
 
 .projectInner {
@@ -10,6 +11,8 @@
     width: 100%;
     margin: auto;
     position: relative;
+    /* border: 2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 
 .projectImage img {
@@ -95,7 +98,7 @@
 
 .Dhru{
      margin-top: 40px;
-   
+     border: 2px solid transparent
 }
 
 .imageContainer{
@@ -106,6 +109,7 @@
     margin-left:80px;
     margin-top:30px;
     margin-bottom:30px;
+    
 }
 
 

@@ -54,18 +54,17 @@ const ProjectItem = ({ data }) => {
                         )}
                     </div>
                 </div>
-            </div>
-            <div className={styles.Dhru}>
+                <div className={styles.Dhru}>
                 <h1>Tech stack</h1>
                 
                <div className={styles.imageContainer}>
                    {(data.tech).map((e,index)=>{
                    return <img src={e} key={index} alt="" className={styles.image} />
                    })}
-                
-            
-            </div>
              </div>
+             </div>
+            </div>
+         
         </div>
     );
 };
