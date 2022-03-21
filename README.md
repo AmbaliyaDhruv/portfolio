@@ -116,5 +116,5 @@ Project Link: [https://portfolio-ambaliyadhruv.vercel.app/](https://www.tipenehu
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=2867B2
 [linkedin-url]: https://www.linkedin.com/in/dhruv-ambaliya-fullstackwebdeveloper/
 [portfolio-image]: src/Assets/img/thumbnails/portfolio.png
-[portfolio-gif]: src/Assets/img/gif.gif
+[portfolio-gif]: src/Assets/img/gif.webm
 
