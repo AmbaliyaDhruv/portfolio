@@ -107,7 +107,7 @@ Follow these steps to get a local copy up and running.
 
 :e-mail: ambaliyadhruv1112@gmail.com
 
-Project Link: [https://portfolio-ambaliyadhruv.vercel.app/](https://www.tipenehughes.com/)
+Project Link: [https://portfolio-ambaliyadhruv.vercel.app/](https://portfolio-ambaliyadhruv.vercel.app/)
 
 
 
