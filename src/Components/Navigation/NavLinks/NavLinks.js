@@ -11,6 +11,9 @@ const NavLinks = ({ input, navClass, handleSetMobileMenu, width, isLight }) => {
             onClick={width <= 768 ? () => handleSetMobileMenu() : null}
         >{input==="Resume"? <a
                     href="https://drive.google.com/file/d/1g20D1sblle14ngNcesAZdxeyTvOhlK7t/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="My Linkedin resume"
                   >{input}
                 </a>: 
                 <Link smooth to={`/#${input.toLowerCase()}`}>
