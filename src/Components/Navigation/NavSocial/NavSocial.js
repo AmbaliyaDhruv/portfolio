@@ -61,7 +61,7 @@ const NavSocial = ({ socialClass, socialIcons }) => {
                     href="https://drive.google.com/file/d/1g20D1sblle14ngNcesAZdxeyTvOhlK7t/view?usp=sharing"
                     className="socialIcons"
                     target="_blank"
-                    rel="noreferrer noopener"
+                    rel="noreferrer"
                     aria-label="My Linkedin resume"
                 >
                     <FontAwesomeIcon icon="file"  className={`${styles[socialIcons]}`} />
