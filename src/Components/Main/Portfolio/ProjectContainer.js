@@ -7,7 +7,8 @@ import pounamunuiLg from "../../../Assets/img/Portfolio items/youtube.png";
 import newsAggregator from "../../../Assets/img/Portfolio items/foodApp.png";
 import spacexSm from "../../../Assets/img/Portfolio items/purplle.png";
 import spacexLg from "../../../Assets/img/Portfolio items/purplle.png";
-
+import pinterest from "../../../Assets/img/Portfolio items/Pinterest.png"
+import petcare from "../../../Assets/img/Portfolio items/PatCare house.png"
 import ProjectItem from "./ProjectItem";
 
 import styles from "./ProjectContainer.module.css";
@@ -23,6 +24,28 @@ import expressjs from "../../../Assets/img/logos/expressjs.svg";
 const ProjectContainer = () => {
     const { isLight } = useContext(ThemeContext);
     const projects = [
+        {
+            image: [pinterest,pinterest],
+            alt: "Pinterest Webclone",
+            heading: "Pinterest Web-Clone",
+            p1: "Pinterest is a virtual discovery tool where users can find Images according to use case. Pinterest web clone built in react and for styling and resource use material UI and unplace API",
+            l1: "https://github.com/AmbaliyaDhruv/Pinterest-web-clone",
+            a1: "Github page for a project.",
+            l2: "https://pinterest-web-clone-ambaliyadhruv.vercel.app/",
+            a2: "Pinterest live website",
+            tech:[html,css,js,react],
+        },
+        {
+            image: [petcare,petcare],
+            alt: "Petbording Site",
+            heading: "Petbording App",
+            p1: "Pet boarding site in this project you are found a house for your pet when you have to travel to many cities. this is a full stuck project. frontend build in react and for the backend, I have used express MongoDB and mongoose.",
+            l1: "https://github.com/AmbaliyaDhruv/PetBoarding-Site-frontend",
+            a1: "Github page for a project.",
+            l2: "https://petboarding-pied.vercel.app/",
+            a2: "Petbording App live website",
+            tech:[html,css,js,react,expressjs,nodejs],
+        },
         {
             image: [spacexSm, spacexLg],
             alt: "Purplle.com_web_clone",
@@ -43,7 +66,7 @@ const ProjectContainer = () => {
             a1: "Github page for a Marriott Bonvoy project.",
             l2: "https://masai-marriott-com.vercel.app/",
             a2: "Marriott Bonvoy live website.",
-            tech:[html,css,js,react,expressjs,nodejs],
+            tech:[html,css,js,expressjs,nodejs],
         },
         {
             image: [pounamunuiSm, pounamunuiLg],
@@ -67,6 +90,7 @@ const ProjectContainer = () => {
             a2: "Food App live website",
             tech:[html,css,js],
         },
+      
     ];
     return (
         <div
