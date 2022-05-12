@@ -81,7 +81,7 @@ Follow these steps to get a local copy up and running.
 
 1. Clone the repo
    ```sh
-   git clone https://github.cohttps://github.com/tipenehughes/portfoliom/tipenehughes/portfolio
+   git clone https://github.com/AmbaliyaDhruv/portfolio.git
    ```
 2. Install NPM packages
    ```sh
